@@ -43,10 +43,10 @@ The randomStart() function keeps generating a random ordering of vertices for as
 The random ordering of the vertices is accomplished in O(n) time using the Fisher Yates Shuffle Algorithm (refer to randomize() function).
 ## Conclusions:
 Comparing my second approach and final approach, I noticed a significant time improvement in finding a solution that was low enough. It takes approximately 5 minutes to find a solution that is good for data5.txt as opposed to 34 minutes. These improvements were consistent with multiple runs. However, I can’t really conclude if it was from my improvements or if my initial random ordering was just luckier for both trials.  
-| Time (mins) |	0 |	1 |	3 |	5 |	15 | 35	| 60 |
-| --- | --- | --- | --- |--- | --- |--- | --- |
-|Approach 2 | 6629.722 | 6621.211 | 6617.600 |6616.798 | 6615.757 | 6610.292 | 	6610.292 |
-|Final Approach | 6628.577 | 6617.612 | 6614.665 | 6610.929 | 6610.135 | 6610.135 | 6610.135|
+| Time (mins) |	0 |	1 |	3 |	5 |	15 | 35	| 60 |  
+| --- | --- | --- | --- |--- | --- |--- | --- |  
+|Approach 2 | 6629.722 | 6621.211 | 6617.600 |6616.798 | 6615.757 | 6610.292 | 	6610.292 |  
+|Final Approach | 6628.577 | 6617.612 | 6614.665 | 6610.929 | 6610.135 | 6610.135 | 6610.135 |  
 
 
 # Results
